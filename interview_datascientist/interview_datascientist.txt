@@ -1,0 +1,141 @@
+
+Just seven questions I will turn it into a blog post.
+
+***
+q1. What project have you worked on do you wish you could go back to,
+and do better?
+
+I started my career as a quant in a small startup hedge fund
+developing time series models to forecast short-term volatility in
+equities and equity indices as part of an option trading strategy. It
+is a fascinating topic and I have been working on it for years,
+finally discovering R and then switching over almost all the logic to
+it. Thinking back, I would re-engineer large portions of it and I made
+a ton of mistakes on both the modelling and implementation side. For
+example, the system automatically generates PDF reports of the
+forecasts but it does so by hand creating latex files that are then
+compiled into PDF. One of the first things I would do is switch all
+that over to use either 'knitr' or 'rmarkdown'.
+
+That said, I had worked on the modelling for a long time, so I am
+fairly happy with the basic model, though there was still loads of
+extra stuff to both investigate and implement.
+
+On the modelling side, I worked on a persistency model using survival
+analysis, which is how I learned about the subject in the first
+place. As a result, there are a lot of different things I would love
+to return to and do differently. In retrospect, I was too quick to
+move past the simpler models. We could see the assumptions were not
+consistent with the data, and so did not fully explore simpler
+approaches. I am now curious to learn what insights those simpler
+approaches would yield.
+
+Hopefully I will be involved in something similar in the future and
+have the ability to apply those lessons.
+
+
+
+***
+q2. What advice do you have to younger analytics professionals and in
+particular PhD students in the Sciences?
+
+I think the key advice I would give is the same for everyone - never
+stop learning. This may be the availability heuristic at play with me,
+but I have never seen a connection between qualifications and the
+quality of the analyst. All the good analysts I have met are so
+because they have initiative.
+
+Initiative manifests in many ways. First, when they encounter a
+problem they learn what they need to do and get on with it. Second,
+much of their knowledge is self-taught. Finally, and I believe most
+importantly, they have an inherent curiosity - the best analysts I
+know engage in the field in their own time, mainly because they want
+to.
+
+This brings up a related issue I have been formulating for some
+time. I want to be really good. While probably not as fanatic as the
+average fan, I do have an interest in sport such as Soccer, the NFL
+and Gaelic Football. For anyone who has met me in person, the
+following comment is going to appear preposterous, but I think there
+is a lot to be learned from how top atheletes prepare and train. I
+appreciate these principles also likely apply to other professions,
+but it is more fun to talk about sport. :)
+
+
+
+
+***
+q3. What do you wish you knew earlier about being a data scientist?
+
+
+
+
+***
+q4. How do you respond when you hear the phrase 'big data'?
+
+I hate it because it has become a meaningess buzzword largely used as
+a means of making sales. It also seems to be much more in the realm of
+engineering than statistics or data analysis.
+
+My attitude to the term is best summarised by the interview you had
+with Hadley Wickham a while back: there are three categories of data
+size, in-memory, on-disk and then truely massive problems like
+recommender systems etc. I think a very large majority of problems can
+be solved by appropriate sampling of your data down to a manageable
+size and then analysing those subsets.
+
+The whole point of statistics is to make inferences about a population
+from a sample of the data.
+
+Of course, once decided on a solution, putting the model into
+production and scaling it for your business is also an issue, but that
+is a problem more belonging to the realm of network and software
+engineering. That said, it is important to keep people with a solid
+understanding of the concepts stay involved, just in case some
+'optimisations' ruin the output.
+
+
+
+***
+q5. What is the most exciting thing about your field?
+
+Robert McNamara in 'The Fog of War' mentioned that you should never
+answer the question asked but instead answer the question you wanted
+to be asked, so with your forebearance I am going to first going to
+answer a liberal interpretation of that question: what work gets me
+excited?
+
+The short answer to that question is varied, all sorts of things
+do. In the last few months I was really looking forward to trying out
+my data exploration template on a brand new data set to see what it
+showed me. Sometimes I love the idea of using Monte Carlo simulation
+to test the output of a regression model, and I have also looked
+forward to investigating the difference between a subpopulation within
+a larger population.
+
+I also love discovering new ways to learn the basics - I read those
+all the time and can never learn enough about ways to think about the
+basics as in my experience reality tends to present us with basic
+statistical problems in new and unusual ways.
+
+
+
+
+
+
+***
+q6. How do you go about framing a data problem - in particular, how do
+you avoid spending too long, how do you manage expectations etc. How
+do you know what is good enough?
+
+
+
+
+
+
+
+
+***
+q7. You've spoken before about the 'need for apprenticeships' in Data
+Science. Do you have any suggestions on what that would involve? Are
+meetups and coaching a good first start?
