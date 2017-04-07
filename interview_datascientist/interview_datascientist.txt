@@ -101,24 +101,28 @@ q5. What is the most exciting thing about your field?
 
 Robert McNamara in 'The Fog of War' mentioned that you should never
 answer the question asked but instead answer the question you wanted
-to be asked, so with your forebearance I am going to first going to
-answer a liberal interpretation of that question: what work gets me
-excited?
+to be asked, so with your forebearance I will first answer a liberal
+interpretation of that question: what work gets me excited?
 
-The short answer to that question is varied, all sorts of things
-do. In the last few months I was really looking forward to trying out
-my data exploration template on a brand new data set to see what it
-showed me. Sometimes I love the idea of using Monte Carlo simulation
-to test the output of a regression model, and I have also looked
-forward to investigating the difference between a subpopulation within
-a larger population.
+The short answer to that question is varied, all sorts of things do,
+but it tends to be very specific thing I am working on. In the last
+few months, I was excited to try out dataexpks on a brand new data set
+to see what it showed me and how well it worked. I love think of ways
+to use Monte Carlo simulation to test the output of various regression
+models, and over Xmas I was fascinated by working on different ways to
+investigate differences between a subpopulation within a larger
+population.
 
-I also love discovering new ways to learn the basics - I read those
-all the time and can never learn enough about ways to think about the
-basics as in my experience reality tends to present us with basic
-statistical problems in new and unusual ways.
+I love discovering new ways to learn the basics - there are a few
+excellent ones out there and I read them all the time. I can never
+learn enough about ways to think about the basics as in my experience
+reality tends to present us with basic statistical problems in new and
+unusual ways.
 
+Having multiple perspectives and multiple approaches is invaluable in
+those situations.
 
+Regarding your original question
 
 
 
