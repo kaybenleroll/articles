@@ -122,8 +122,12 @@ unusual ways.
 Having multiple perspectives and multiple approaches is invaluable in
 those situations.
 
-Regarding your original question
-
+Regarding your original question as I think you intended, I think the
+advances in reinforcement learning techniques probably have the
+biggest potential - some of the Atari gameplaying stuff from Deep Mind
+was eye-opening. Sadly, if history is any guide, much of it will prove
+to be hype, but I imagine some very interesting results to come from
+the work.
 
 
 
@@ -143,3 +147,24 @@ do you know what is good enough?
 q7. You've spoken before about the 'need for apprenticeships' in Data
 Science. Do you have any suggestions on what that would involve? Are
 meetups and coaching a good first start?
+
+To explain the point I was making on that note, I think there is a lot
+of implicit knowledge in this field, and I have been told a number of
+times from people looking for help that people feel overwhelmed by the
+sheer amount of knowledge people feel they need to know.
+
+I do not think this is true, but I understand where this comes from:
+there is so many different aspects to working with data it is tough to
+know where to start. I always start very simple, but as I mentioned
+early, it took a lot of time, thought and effort to get to that point,
+and it is not easy to explain these ideas in theory - you have to work
+on a number of different datasets to get a feel for how to do this.
+
+As a result, I believe an approach such as mentoring or
+apprenticeships are a good way to teach people - more experienced
+analysts can guide junior members around the various pitfalls and
+traps that are easy to fall into. It also allows us to show people
+that you do not need fancy and sophisticated techniques and algorithms
+to do interesting work - some of the most interesting work I have seen
+involved little more than summary statistics and basic models like
+linear regression and decision trees.
