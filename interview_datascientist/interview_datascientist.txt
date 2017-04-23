@@ -5,23 +5,26 @@ Just seven questions I will turn it into a blog post.
 q1. What project have you worked on do you wish you could go back to,
 and do better?
 
-I started my career as a quant in a small startup hedge fund. I
+I started my career as a quant in a small startup hedge fund. We
 developed time series models to forecast short-term volatility in
 equities and equity indices as part of an option trading strategy. It
-is a fascinating topic and I have been working on it for years,
-finally discovering R and then switching over almost all the logic to
-it. Thinking back, I would re-engineer large portions of it and I made
-a ton of mistakes on both the modelling and implementation side. For
-example, the system automatically generates PDF reports of the
-forecasts but it does so by hand creating latex files that are then
-compiled into PDF. One of the first things I would do is switch all
-that over to use either 'knitr' or 'rmarkdown'.
+is a fascinating topic and I still dabble in it. Thinking back on the
+work done, I would re-engineer large portions of it. I made a ton of
+mistakes on both the modeling and implementation side, and the R
+language in particular has progressed in strides since I did the bulk
+of the work.
 
-That said, I had worked on the modelling for a long time, so I am
-fairly happy with the basic model, though there was still loads of
-extra stuff to both investigate and implement.
+For example, the system automatically generates PDF reports of the
+forecasts but it does so by hand creating La-TeX files compiled into
+PDF. One of the first things I would do is switch all that over to use
+either 'knitr' or 'rmarkdown'. I would also use more 'reproducible
+research' concepts.
 
-On the modelling side, I worked on a persistency model using survival
+That said, I had worked on the modeling for a long time, so I am
+content with the basic model. There are many things still to
+investigate or implement.
+
+On the modeling side, I worked on a persistency model using survival
 analysis, which is how I learned about the subject in the first
 place. As a result, there are a lot of different things I would love
 to return to and do differently. In retrospect, I was too quick to
@@ -30,8 +33,8 @@ consistent with the data, and so did not fully explore simpler
 approaches. I am now curious to learn what insights those simpler
 approaches would yield.
 
-It is such a universal problem (customer churn) that I expect I will
-be involved in something similar in the future and apply those lessons
+Customer churn is such a universal problem I expect I will be working
+on it again in the near future. Hopefully I can apply those lessons
 then.
 
 
@@ -42,9 +45,9 @@ particular PhD students in the Sciences?
 
 I think the key advice I would give is the same for everyone - never
 stop learning. This may be the availability heuristic at play with me,
-but I have never seen a connection between qualifications and the
-quality of the analyst. All the good analysts I have met are so
-because they have initiative, bot because of an academic qualification.
+but I have never seen a connection between qualifications and analyst
+quality. All the good analysts I know have curiosity and
+initiative. Academic achievements do not come into it at all.
 
 Initiative manifests in many ways. First, when they encounter a
 problem they learn what they need to do and get on with it. Second,
@@ -62,8 +65,8 @@ How do I achieve this? What do I need to do to get to that point?
 
 While probably not as keen as the average fan, I love sport - soccer,
 the NFL and Gaelic Football in particular. For anyone who has met me
-in person, comparing me to a top athelete seems preposterous, but
-there is a lot to be learned from top atheletes if you want to excel
+in person, comparing me to a top athlete seems preposterous, but
+there is a lot to be learned from top athletes if you want to excel
 at your chosen field. Look at how they prepare and train. These
 principles almost certainly apply to other professions too, but it is
 more fun to talk about sport. :)
@@ -76,31 +79,39 @@ devotion to their chosen career not their obvious talent. All their
 team-mates mention how hard they worked despite their abundance of
 natural advantages. Players with huge natural talent often coast, but
 elite players are the opposite - they work as hard as the fringe
-players slogging to merely survive the cut.
+players slogging to just survive the cut.
 
-In our field, the analogy is we need to be constantly working on
-improving - going to Meetups, reading about new techniques, watching
-videos on YouTube and looking to strengthen areas where you are
-weak. This is why a natural interest and curiousity is so invaluable -
-it makes these necessary tasks much less of a burden as they are
-things you would want to do anyway.
+In our field, we need to work constantly on improving - going to
+Meetups, reading about new techniques, watching videos on YouTube and
+looking to strengthen areas where you are weak. This is why a natural
+interest and curiosity is so invaluable - it makes these necessary
+tasks much less of a burden as they are things you would want to do
+anyway.
 
 Secondly, top players do the simple things well, almost never making a
 mistake. They are fallible of course, and make mistakes, but almost
-never on the basics. They are rigourous about practicing the basic
+never on the basics. They are rigorous about practicing the basic
 skills and principles, and that is why they are so good. The bread and
 butter of their craft is second-nature to them.
 
 This is why I focus so much on basic statistics classes and reread and
-rewatch the books and lectures I find useful. I want these things to
+re-watch the books and lectures I find useful. I want these things to
 be second nature and they are not.
 
 Probability and statistics are so counter-intuitive that I almost
 never get things right on gut feeling. I am almost always wrong. So
 much so that I gave a talk about probabilistic graphical models about
 a year ago and during the questions at the end made an off-hand joke
-about going with the opposite of my intution. It was said in jest at
-the time but is sadly true!
+about going with the opposite of my intuition.
+
+It was said in jest at the time but is sadly true!
+
+One final piece of advice is to help as many people as you can. Help
+people with their homework, with some programming, with their computer
+problems and with data problems. You get exposed to all sorts of
+topics and problems, most of which you will see again in your
+career. You also get the added bonus of people thinking you are
+selfless and altruistic, despite being self-serving in reality!
 
 
 
@@ -114,56 +125,50 @@ you can never learn enough about these fundamental topics. Secondly, I
 wish I learned it is okay to start working with a bad model that you
 know is wrong but simple.
 
-To that first point, I deliberately spend a long time fighting my
-natural desire for a clean, elegant and correct answer to a problem. I
-would work on a problem, get to a point that I was confident pointed
-us in the right direction, but then realise that 'proving' this was
-right involved a huge amount of time and effort, assuming it was
-possible.
+To that first point, I spend a long time fighting my natural desire
+for a clean, elegant and correct answer to a problem. I would work on
+a problem, get to a point that I was confident pointed us in the right
+direction, but then realise that 'proving' this was right involved a
+huge amount of time and effort, assuming it was possible.
 
 I attributed my natural reluctance to pursue this 'answer' as
 laziness, and felt guilty. I felt I was being unprofessional and
 sloppy. But working on forecasting models for trading taught me that
 this was not the case. Models are so imperfect, with so many
-compromises that it is generally more optimal to think about other
-things first - what are the limitations of the model in practice, what
-is it saying, how are you going to use it. Answer those questions
-first, THEN worry about improving it.
+compromises it is often more optimal to think about other things first
+- what are the limitations of the model in practice, what is it
+saying, how are you going to use it. Answer those questions first,
+THEN worry about improving it.
 
 This is why I always start with simple, stupid, wrong models. They are
 quick to produce, they help you learn a lot about what you are doing,
 they fail in spectacular ways and they are sometimes all you need. In
 terms of costs and benefits, they are hard to beat.
 
-Then again, maybe I am just a lazy sod looking to excuse his
-sloppiness. :)
-
-
 
 
 ***
 q4. How do you respond when you hear the phrase 'big data'?
 
-I hate it because it has become a meaningess buzzword largely used as
-a means of making sales. It also seems to be much more in the realm of
-engineering than statistics or data analysis.
+I hate it. It has become a meaningless buzzword used as a means of
+making sales.
 
 My attitude to the term is best summarised by the interview you had
-with Hadley Wickham a while back: there are three categories of data
-size, in-memory, on-disk and then truely massive problems like
-recommender systems etc. I think a very large majority of problems can
-be solved by appropriate sampling of your data down to a manageable
-size and then analysing those subsets.
+with Hadley Wickham: there are three categories of data size,
+in-memory, on-disk and finally the truly 'big data' problems like
+recommender systems. I believe the majority of problems can be solved
+by appropriate sampling of your data down to a manageable size and
+then analysing those subsets.
 
-The whole point of statistics is to make inferences about a population
-from a sample of the data.
+After all, the whole point of statistics is to make inferences about a
+population from a sample of the data.
 
-Of course, once decided on a solution, putting the model into
-production and scaling it for your business is also an issue, but that
-is a problem more belonging to the realm of network and software
-engineering. That said, it is important to keep people with a solid
-understanding of the concepts stay involved, just in case some
-'optimisations' ruin the output.
+Once decided on a solution, putting the model into production and
+scaling it for your business is a major issue, but is a problem more
+belonging to the realm of network and software engineering. That said,
+it is important to keep people with a solid understanding of the
+concepts stay involved, just in case some 'optimisations' ruin the
+output.
 
 
 
@@ -175,30 +180,30 @@ answer the question asked but instead answer the question you wanted
 to be asked, so with your forebearance I will first answer a liberal
 interpretation of that question: what work gets me excited?
 
-The short answer to that question is varied, all sorts of things do,
-but it tends to be very specific thing I am working on. In the last
-few months, I was excited to try out dataexpks on a brand new data set
-to see what it showed me and how well it worked. I love think of ways
-to use Monte Carlo simulation to test the output of various regression
-models, and over Xmas I was fascinated by working on different ways to
-investigate differences between a subpopulation within a larger
+The short answer to that question is all sorts of things do, but they
+are often small things related to work I am doing. In the last few
+months, I was excited to try out dataexpks (a data exploration package
+I am co-creating) on a brand new data set to see what it showed me and
+how well my code worked. I love think of ways to use Monte Carlo
+simulation to test the output of various regression models, and over
+Christmas I was fascinated by a short project trying out methods of
+investigating differences between a subpopulation within a larger
 population.
 
-I love discovering new ways to learn the basics - there are a few
-excellent ones out there and I read them all the time. I can never
-learn enough about ways to think about the basics as in my experience
-reality tends to present us with basic statistical problems in new and
-unusual ways.
+I am fascinated by new ways to learn the fundamentals - there are a
+few excellent ones out there and I read them all the time. I can never
+learn enough as in my experience reality tends to present us with
+basic statistical problems in new and unusual ways.
 
 Having multiple perspectives and multiple approaches is invaluable in
 those situations.
 
 Regarding your original question as I think you intended, I think the
 advances in reinforcement learning techniques probably have the
-biggest potential - some of the Atari gameplaying stuff from Deep Mind
-was eye-opening. Sadly, if history is any guide, much of it will prove
-to be hype, but I imagine some very interesting results to come from
-the work.
+biggest potential - some of the Atari gameplaying from Deep Mind was
+eye-opening. Sadly, if history is any guide, much of it will prove to
+be hype, but I imagine some very interesting results to come from the
+work.
 
 
 
@@ -207,13 +212,16 @@ q6. How do you go about framing a data problem - in particular, how do
 you avoid spending too long, how do you manage expectations etc. How
 do you know what is good enough?
 
-Framing a data problem is a tough one to answer - I do not really know
-how I do it. I have had the good fortune to help a lot of people with
-their projects and problems, exposing me to a wide variety of
-problems, and I learned something from all of them. I also read a lot
-of blogs, articles and subscribe to mailing lists. I may not have time
-to read all this, but often all I need is a word to Google in the
-future. That will get you started.
+Framing a data problem is a tough one to answer - I am not sure what I
+do or how to articulate it. I have had the good fortune to help a lot
+of people with their projects and problems, exposing me to a wide
+variety of problems. I learned something from all of them and I rely
+on that a lot.
+
+I also read a lot of blogs, articles and subscribe to mailing
+lists. While rarely having the time to read all this, often all you
+need to get started on a problem is a vague memory of some techincal
+topic that may help and some terminology to Google.
 
 As a result, the first thing I focus on is understanding the problem:
 what is being asked? Do we have any data? What does is it look like?
@@ -221,7 +229,8 @@ Are there other data available we can use to enrich or use as a
 substitute?
 
 Going through that process will suggest approaches to use, and at that
-point I draw upon previous experience, however superfical.
+point I draw upon previous experience, however tangential to the
+problem..
 
 By keeping this focus, your other questions are straightforward to
 answer: if the current model is not likely to improve the answer by an
@@ -245,29 +254,31 @@ of implicit knowledge in this field, and I have been told a number of
 times from people looking for help that people feel overwhelmed by the
 sheer amount of knowledge people feel they need to know.
 
-I do not think this is true, but I understand where this comes from:
-there is so many different aspects to working with data it is tough to
-know where to start. I always start very simple, but as I mentioned
-early, it took a lot of time, thought and effort to get to that point,
-and it is not easy to explain these ideas in theory - you have to work
-on a number of different datasets to get a feel for how to do this.
+I do not think this is true, but I understand its origin: there is so
+many different aspects to working with data it is tough to know where
+to start. I always start very simple, but as I mentioned early, it
+took a lot of time, thought and effort to get to that point, and it is
+not easy to explain these ideas in theory - you have to work on a
+number of different datasets to get a feel for how to do this.
 
 As a result, I believe an approach such as mentoring or
-apprenticeships are a good way to teach people - more experienced
-analysts can guide junior members around the various pitfalls and
-traps that are easy to fall into. It also allows us to show people
-that you do not need fancy and sophisticated techniques and algorithms
-to do interesting work - some of the most interesting work I have seen
-involved little more than summary statistics and basic models like
-linear regression and decision trees.
+apprenticeships are an effective approach to teach people - more
+experienced analysts can guide junior members around the various
+pitfalls and traps that are easy to fall into. It allows us to
+illustrate that fancy and sophisticated techniques and algorithms are
+not needed to do interesting work - some of the most interesting work
+I have seen involved little more than summary statistics along with
+basic models like linear regression and decision trees.
 
-All this stuff is very hard to learn from a book - almost
-improssible. The closest book I read that talks about this is Data
-Analysis Using Regression and Multilevel/Hierarchical Models by Gelman
-and Hill, stressing the importance of starting from simple models. I
-highly recommend this book.
+This is hard to learn from a book - almost impossible. The closest
+book I read that talks about this is "Data Analysis Using Regression
+and Multilevel/Hierarchical Models" by Gelman and Hill, stressing the
+importance of starting from simple models. I would love to know if
+there are more.
 
 That said, I could only appreciate the point because I was already
 experienced, a younger version of myself would have missed the
-point. I would have needed 'permission' from a more experienced
-analyst to think it was good to do such a thing.
+point. It would not have occurred to me that the right way to do
+something is to do the simple and obvious thing.
+
+I am a firm believer in the KISS principle. Keep It Simple, Stupid.
