@@ -5,8 +5,8 @@ Just seven questions I will turn it into a blog post.
 q1. What project have you worked on do you wish you could go back to,
 and do better?
 
-I started my career as a quant in a small startup hedge fund
-developing time series models to forecast short-term volatility in
+I started my career as a quant in a small startup hedge fund. I
+developed time series models to forecast short-term volatility in
 equities and equity indices as part of an option trading strategy. It
 is a fascinating topic and I have been working on it for years,
 finally discovering R and then switching over almost all the logic to
@@ -30,8 +30,9 @@ consistent with the data, and so did not fully explore simpler
 approaches. I am now curious to learn what insights those simpler
 approaches would yield.
 
-Hopefully I will be involved in something similar in the future and
-have the ability to apply those lessons.
+It is such a universal problem (customer churn) that I expect I will
+be involved in something similar in the future and apply those lessons
+then.
 
 
 
@@ -43,7 +44,7 @@ I think the key advice I would give is the same for everyone - never
 stop learning. This may be the availability heuristic at play with me,
 but I have never seen a connection between qualifications and the
 quality of the analyst. All the good analysts I have met are so
-because they have initiative.
+because they have initiative, bot because of an academic qualification.
 
 Initiative manifests in many ways. First, when they encounter a
 problem they learn what they need to do and get on with it. Second,
@@ -52,20 +53,90 @@ importantly, they have an inherent curiosity - the best analysts I
 know engage in the field in their own time, mainly because they want
 to.
 
-This brings up a related issue I have been formulating for some
-time. I want to be really good. While probably not as fanatic as the
-average fan, I do have an interest in sport such as Soccer, the NFL
-and Gaelic Football. For anyone who has met me in person, the
-following comment is going to appear preposterous, but I think there
-is a lot to be learned from how top atheletes prepare and train. I
-appreciate these principles also likely apply to other professions,
-but it is more fun to talk about sport. :)
+This brings up a related issue I have been pondering for some time. I
+am ambitious. I want to be a top data scientist some day. I have no
+academic ambition whatsoever, but my goal is to be able to hold my own
+in any conversation with anyone in the field.
 
+How do I achieve this? What do I need to do to get to that point?
+
+While probably not as keen as the average fan, I love sport - soccer,
+the NFL and Gaelic Football in particular. For anyone who has met me
+in person, comparing me to a top athelete seems preposterous, but
+there is a lot to be learned from top atheletes if you want to excel
+at your chosen field. Look at how they prepare and train. These
+principles almost certainly apply to other professions too, but it is
+more fun to talk about sport. :)
+
+When I read about Lionel Messi, Tom Brady or Colm Cooper (for our
+non-Irish readers the recently-retired 'Gooch' is arguably the
+greatest GAA player to ever play the game - he was majestic to watch),
+the one thing that always stands out for me is their fanatical
+devotion to their chosen career not their obvious talent. All their
+team-mates mention how hard they worked despite their abundance of
+natural advantages. Players with huge natural talent often coast, but
+elite players are the opposite - they work as hard as the fringe
+players slogging to merely survive the cut.
+
+In our field, the analogy is we need to be constantly working on
+improving - going to Meetups, reading about new techniques, watching
+videos on YouTube and looking to strengthen areas where you are
+weak. This is why a natural interest and curiousity is so invaluable -
+it makes these necessary tasks much less of a burden as they are
+things you would want to do anyway.
+
+Secondly, top players do the simple things well, almost never making a
+mistake. They are fallible of course, and make mistakes, but almost
+never on the basics. They are rigourous about practicing the basic
+skills and principles, and that is why they are so good. The bread and
+butter of their craft is second-nature to them.
+
+This is why I focus so much on basic statistics classes and reread and
+rewatch the books and lectures I find useful. I want these things to
+be second nature and they are not.
+
+Probability and statistics are so counter-intuitive that I almost
+never get things right on gut feeling. I am almost always wrong. So
+much so that I gave a talk about probabilistic graphical models about
+a year ago and during the questions at the end made an off-hand joke
+about going with the opposite of my intution. It was said in jest at
+the time but is sadly true!
 
 
 
 ***
 q3. What do you wish you knew earlier about being a data scientist?
+
+I have two main things I wish I learned early on in my career, and
+both are connected philosophically. First, I wish I had learned about
+probabilistic thinking, risk management, economics and statistics -
+you can never learn enough about these fundamental topics. Secondly, I
+wish I learned it is okay to start working with a bad model that you
+know is wrong but simple.
+
+To that first point, I deliberately spend a long time fighting my
+natural desire for a clean, elegant and correct answer to a problem. I
+would work on a problem, get to a point that I was confident pointed
+us in the right direction, but then realise that 'proving' this was
+right involved a huge amount of time and effort, assuming it was
+possible.
+
+I attributed my natural reluctance to pursue this 'answer' as
+laziness, and felt guilty. I felt I was being unprofessional and
+sloppy. But working on forecasting models for trading taught me that
+this was not the case. Models are so imperfect, with so many
+compromises that it is generally more optimal to think about other
+things first - what are the limitations of the model in practice, what
+is it saying, how are you going to use it. Answer those questions
+first, THEN worry about improving it.
+
+This is why I always start with simple, stupid, wrong models. They are
+quick to produce, they help you learn a lot about what you are doing,
+they fail in spectacular ways and they are sometimes all you need. In
+terms of costs and benefits, they are hard to beat.
+
+Then again, maybe I am just a lazy sod looking to excuse his
+sloppiness. :)
 
 
 
@@ -136,10 +207,31 @@ q6. How do you go about framing a data problem - in particular, how do
 you avoid spending too long, how do you manage expectations etc. How
 do you know what is good enough?
 
+Framing a data problem is a tough one to answer - I do not really know
+how I do it. I have had the good fortune to help a lot of people with
+their projects and problems, exposing me to a wide variety of
+problems, and I learned something from all of them. I also read a lot
+of blogs, articles and subscribe to mailing lists. I may not have time
+to read all this, but often all I need is a word to Google in the
+future. That will get you started.
 
+As a result, the first thing I focus on is understanding the problem:
+what is being asked? Do we have any data? What does is it look like?
+Are there other data available we can use to enrich or use as a
+substitute?
 
+Going through that process will suggest approaches to use, and at that
+point I draw upon previous experience, however superfical.
 
+By keeping this focus, your other questions are straightforward to
+answer: if the current model is not likely to improve the answer by an
+amount relevant to the goal, it is not worth spending more time
+on. Similarly, knowing what is needed will tell you if your current
+model is good enough, or often if there is a model that is good enough
+- it is possible the level of accuracy required is not feasible.
 
+In the latter case, discovering that early is much better than later -
+you know not to waste time, money and resources on a lost cause.
 
 
 
@@ -168,3 +260,14 @@ that you do not need fancy and sophisticated techniques and algorithms
 to do interesting work - some of the most interesting work I have seen
 involved little more than summary statistics and basic models like
 linear regression and decision trees.
+
+All this stuff is very hard to learn from a book - almost
+improssible. The closest book I read that talks about this is Data
+Analysis Using Regression and Multilevel/Hierarchical Models by Gelman
+and Hill, stressing the importance of starting from simple models. I
+highly recommend this book.
+
+That said, I could only appreciate the point because I was already
+experienced, a younger version of myself would have missed the
+point. I would have needed 'permission' from a more experienced
+analyst to think it was good to do such a thing.
